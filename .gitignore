@@ -1,0 +1,14 @@
+# 忽略 os 目录下的 target 编译产物
+os/target/
+
+# 忽略常见的编辑器临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 忽略 Rust 可能生成的备份文件
+**/*.rs.bk
